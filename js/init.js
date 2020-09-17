@@ -8,7 +8,7 @@ $(document).ready(function () {
 
     var times = function(){
         now = new Date();
-        hour = 24-now.getHours();
+        hour = 24-now.getHours() - 1;
         hour = ((hour+'').length==1?hour='0'+hour:hour)+'';
         minu = 60-now.getMinutes();
         minu = ((minu+'').length==1?minu='0'+minu:minu)+'';
